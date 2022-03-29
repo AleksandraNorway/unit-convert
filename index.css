@@ -152,7 +152,7 @@ input   {
 span {
     color: var(--span-color);
 }
-@media (min-width: 550px) {
+@media (min-width: 850px) {
     body {
         display: flex;
         justify-content: space-evenly;
