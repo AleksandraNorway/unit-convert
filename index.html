@@ -1,0 +1,58 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+<div class="dark-container">
+    <div class="icon-text"><img src="./light-mode.webp" alt="dark-mode-icon" id="icon">
+    <span id="span-icon">Light mode</span></div>
+    <h1>Unit Converter Project</h1>
+   
+    <h2 class="dark-container-h2">A solo project created as part of my front-end dev course on Scrimba.</h2>
+    <p class="dark-container-p">Project features:</p>
+    <ul class="dark-container-ul">
+        <li>Automatically performs metric/imperial unit conversions</li>
+        <li>Converts Meters to Feet</li>
+        <li> Converts Litres to Gallons</li>
+        <li>Converts Kilograms to Pounds</li>
+        
+       
+       </ul>
+        
+    </div>
+
+
+        <div class="container">
+           
+            <div class="cont">
+              
+        <h1>Metric/Imperial unit conversion</h1>
+      
+        <input class="nam1" type="number" name="" id="nam" placeholder="0" oninput="calC()" >
+        </div>
+        
+           
+       
+<main>
+   
+        <h2>Length (Meter/Feet)</h2>
+        <p id="res"><span id="user-input">0</span> meters = <span id="lenghth-result">0.000</span> feet | <span id="feet-result-2">0</span> feet = <span id="user-input-2">0.000</span> meters</p>
+
+         <h2>Volume (Liters/Gallons)</h2>
+         <p id="res2"><span id="user-input-3">0</span> liters = <span id="gallons-result">0.000</span> gallons | <span id="liters-result">0</span> gallons = <span id="user-input-4">0.000</span> liters</p>
+    
+         <h2>Mass (Kilograms/Pounds)</h2>
+        <p id="res2"><span id="user-input-5">0</span> kilos = <span id="pounds-result">0.000</span> pounds | <span id="user-input-6">0</span> pounds = <span id="kilos-result">0.000</span> kilos</p>
+        
+</main>
+
+</div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
