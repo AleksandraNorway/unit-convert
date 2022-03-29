@@ -147,6 +147,7 @@ input   {
    flex-direction: column;
    
    display: flex;
+     margin: .5em;
     
 }
 span {
