@@ -162,8 +162,8 @@ span {
     .container {
         max-width: 550px;
       
-        flex-basis: auto;
-        margin-top: 1em;
+       
+        margin: .5em;
     }
     h1 {
         font-size: 32px;
